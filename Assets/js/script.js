@@ -172,7 +172,8 @@ saveBtn5PM.on("click", function() {
         "02:00:00 pm",
         "03:00:00 pm",
         "04:00:00 pm",
-        "05:00:00 pm"
+        "05:00:00 pm",
+        "06:00:00 pm"
     ];
 
 // For loop with moments.js and jQuery to set color code for past, present and future timeblocks
