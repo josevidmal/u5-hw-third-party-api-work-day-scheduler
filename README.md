@@ -5,10 +5,32 @@ This was an on-the-job ticket activity where I was given an HTML and CSS code th
 
 For this activity I wrote all the code in a JavaScript file, using jQuery and moment.js. To begin, I wrote a function using moment.js to show the current date and time, and I used setInterval to update the time each second. Then I used an array to write a for loop to create each html element for the timeblocks (&lt;span&gt;, &lt;textarea&gt; and &lt;button&gt;), adding classes and attributes to them. Next, I wrote the code for the click events of each timeblock button, to save the text written by the user in the browser's local storage and then get each item to post it in the corresponding timeblock textarea. Finally, I made a for loop using moment.js and jQuery to set up some conditional statements to color each timeblock according to it's place in the current day timeline (using gray for past, red for present and green for future)
 
-The final website looks like this image:
+The final website looks like this:
 
 ![Work Day Scheduler](./Assets/work-day-scheduler.png)
+
+![Work Day Scheduler](./Assets/work-day-scheduler-localstorage.png)
 
 The link for the deployed application is this:
 
 https://josevidmal.github.io/u5-hw-third-party-api-work-day-scheduler/
+
+Technologies used:
+
+* HTML
+* CSS
+* JavaScript
+* jQuery
+* Web APIs
+* Moment.js
+* Bootstrap
+* Font Awesome
+
+Contact information:
+
+* José Vidal
+* email: josevidmal@gmail.com
+
+License:
+
+This project is licensed under the terms of the MIT license.
